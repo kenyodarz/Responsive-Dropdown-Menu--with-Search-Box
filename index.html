@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Dropdown Menu  with Search Box</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/c80715b519.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+
+    
+    <input type="checkbox" name="show-search" id="show-search">
+    <input type="checkbox" name="show-menu" id="show-menu">
+    <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+    <div class="content">
+      <div class="logo"><a href="#">ByKenyoDarz</a></div>
+      <ul class="links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca</a></li>
+        <li>
+          <a href="#" class="desktop-links">Características</a>
+          <input type="checkbox" name="show-features" id="show-features">
+          <label for="show-features">Características</label>
+          <ul>
+            <li><a href="#">Drop Menu 1</a></li>
+            <li><a href="#">Drop Menu 2</a></li>
+            <li><a href="#">Drop Menu 3</a></li>
+            <li><a href="#">Drop Menu 4</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-links">Servicios</a>
+          <input type="checkbox" name="show-services" id="show-services">
+          <label for="show-services">Servicios</label>
+          <ul>
+            <li><a href="#">Drop Menu 1</a></li>
+            <li><a href="#">Drop Menu 2</a></li>
+            <li><a href="#">Drop Menu 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-links">Mas Items</a>
+          <input type="checkbox" name="show-items" id="show-items">
+          <label for="show-items">Mas Items</label>
+          <ul>
+            <li><a href="#">Drop Menu 1</a></li>
+            <li><a href="#">Drop Menu 2</a></li>
+            <li><a href="#">Drop Menu 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Retroalimentación</a></li>
+      </ul>
+    </div>
+    <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+    <form action="#" class="search-box">
+      <input type="text" placeholder="Ingrese algo a buscar..." required>
+      <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+    </form>
+    </nav>
+  </div>
+  <div class="dummy-text">
+    <h2>Responsive Dropdown Menu  with Search Box</h2>
+    <h2>usando solo HTML & CSS - Flexbox</h2>
+  </div>
+</body>
+</html>
